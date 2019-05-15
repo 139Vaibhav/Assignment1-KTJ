@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.tm-header{
+	background: rgba(204,206,207,1);
+}
+.tm-header ::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-container{
+	margin-left: 40px;
+	margin-right: : 40px;
+}
+.tm-nav{
+	float: left; 
+}
+.tm-nav ul li{
+	margin-left: 100px;
+	margin-right: 100px;
+	display: inline-block;
+}
+.tm-nav ul li a{
+	text-decoration: none;
+	color: rgba(104, 106, 107, 1);
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 60px;
+}
+.tm-nav ul li a:hover{
+	color: rgba(0,0,0,0.8);
+}
+.tm-design{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.tm-para{
+	text-align: center;
+	font-size: 15em;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 3px;
+
+	text-shadow: 0 0 20px #ff005b;
+	z-index: -1;
+}
+.tm-footer{
+	background: rgba(204,206,207,1);
+	text-align: center;
+}
+.tm-para1{
+	text-align: center;
+	color: white;
+	font-size: 5em;
+	font-weight: bold;
+}
+body{
+	background-image: url('star.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
